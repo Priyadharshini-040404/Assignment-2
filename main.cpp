@@ -16,7 +16,11 @@ int main() {
     if (power == 'Y' || power == 'y') {
         powerOn = true;
         cout << "\nMachine Powered ON ✅" << endl;
- 
+  // Loop until user powers off
+        while (powerOn) {
+            // Coffee Selection
+            cout << "\nSelect Coffee (Latte / Mocha / Espresso): ";
+            cin >> choice; 
     }
     cout << "\n=== Program Ended ===" << endl;
     return 0;

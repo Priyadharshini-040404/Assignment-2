@@ -28,7 +28,11 @@ int main() {
                 cout << "Adding frothed milk..." << endl;
                 cout << "Adding hot coffee..." << endl;
             }
-            
+            else if (choice == "Mocha" || choice == "mocha") {
+                cout << "\nPreparing Mocha..." << endl;
+                cout << "Adding chocolate powder..." << endl;
+                cout << "Adding frothed milk..." << endl;
+                cout << "Adding hot coffee..." << endl;
  
             
         }
